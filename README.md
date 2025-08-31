@@ -27,4 +27,56 @@ Users can:
 
 ---
 
-## 🏗️ Project Structure  
+## 🛠️ Setup Instructions
+
+### 1 Clone the repository  
+```bash
+git clone https://github.com/your-username/mendov2.git
+cd mendov2
+
+```
+
+### 2 Clone the repository  
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3 Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+(Create requirements.txt with packages: Flask, pandas, nltk, scikit-learn, etc.)
+
+
+
+### 4 Run the application
+
+```bash
+python app.py
+```
+
+Flask will start on:
+
+```bash
+http://127.0.0.1:5000/
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
