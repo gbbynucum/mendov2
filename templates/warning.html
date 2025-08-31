@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warning</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-green-300 via-blue-400 to-purple-500 flex items-center justify-center h-screen">
+
+  <div class="bg-white p-12 rounded-lg shadow-2xl w-full max-w-5xl text-center">
+    <!-- Warning Heading -->
+    <h1 class="text-5xl font-extrabold text-red-600 mb-8">WARNING!</h1>
+
+    <!-- Warning Description -->
+    <p class="text-2xl text-black mb-8">
+      Hoarding of medicines such as; Phenylephrine hydrochloride, Chlorpheniramine Maleate, Paracetamol tablets, and Carbocisteine capsules are prohibited as stated in the Joint Memorandum Circular (JMC) No. 22-01.<br><br>
+      People and establishments found to have violated the JMC will be held liable under the Price Act, Consumer Act of the Philippines, and other laws.
+    </p>
+
+    <!-- Buttons -->
+    <div class="flex justify-between mt-8">
+      <!-- Back Button -->
+      <a href="{{ url_for('index') }}" class="inline-block px-12 py-5 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold rounded-2xl shadow-lg hover:from-blue-400 hover:to-blue-600 transform hover:scale-105 transition-all duration-300 ease-in-out">
+        Back
+      </a>
+      
+      <!-- Next Button -->
+      <a href="{{ url_for('disclaimer') }}" class="inline-block px-12 py-5 bg-gradient-to-r from-green-500 to-green-700 text-white font-semibold rounded-2xl shadow-lg hover:from-green-400 hover:to-green-600 transform hover:scale-105 transition-all duration-300 ease-in-out">
+        Continue
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

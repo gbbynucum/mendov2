@@ -1,0 +1,476 @@
+symptom,medication,alternative_medication
+headache,acetaminophen,ibuprofen;naproxen;triptans;
+my head hurts,acetaminophen,ibuprofen;naproxen;triptans;
+my head is painful,acetaminophen,ibuprofen;naproxen;triptans;
+sakit ulo,acetaminophen,ibuprofen;naproxen;triptans;
+sakit akong ulo,acetaminophen,ibuprofen;naproxen;triptans;
+sakit kaayo akong ulo,acetaminophen,ibuprofen;naproxen;triptans;
+labad ulo,acetaminophen,ibuprofen;naproxen;triptans;
+labad kaayo akong ulo,acetaminophen,ibuprofen;naproxen;triptans;
+ga labad akong ulo,acetaminophen,ibuprofen;naproxen;triptans;
+pagka labad sakong ulo,acetaminophen,ibuprofen;naproxen;triptans;
+pirting labada sakong ulo,acetaminophen,ibuprofen;naproxen;triptans;
+pirting sakita sakong ulo,acetaminophen,ibuprofen;naproxen;triptans;
+sakit kaayo ulo nako,acetaminophen,ibuprofen;naproxen;triptans;
+sakit dyud kaayo akong ulo,acetaminophen,ibuprofen;naproxen;triptans;
+pirti kasakit sakong ulo,acetaminophen,ibuprofen;naproxen;triptans;
+ulo nako sakit kaayo,acetaminophen,ibuprofen;naproxen;triptans;
+dili ma antos kasakit sa ulo,acetaminophen,ibuprofen;naproxen;triptans;
+kasakit sakong ulo dli ma antos,acetaminophen,ibuprofen;naproxen;triptans;
+masakit ang ulo ko,acetaminophen,ibuprofen;naproxen;triptans;
+sumasakit ang ulo ko,acetaminophen,ibuprofen;naproxen;triptans;
+napakasakit ng ulo ko,acetaminophen,ibuprofen;naproxen;triptans;
+ang sakit sakit ng ulo ko,acetaminophen,ibuprofen;naproxen;triptans;
+naga sakit ang ulo ko,acetaminophen,ibuprofen;naproxen;triptans;
+ang sakit sakit ng ulo ko,acetaminophen,ibuprofen;naproxen;triptans;
+sobrang sakit ng ulo ko,acetaminophen,ibuprofen;naproxen;triptans;
+
+fever,acetaminophen,ibuprofen;aspirin;
+i have fever,acetaminophen,ibuprofen;aspirin;
+high temperature,acetaminophen,ibuprofen;aspirin;
+i have high temperature,acetaminophen,ibuprofen;aspirin;
+my head is hot,acetaminophen,ibuprofen;aspirin;
+i feel cold,acetaminophen,ibuprofen;aspirin;
+lagnat,acetaminophen,ibuprofen;aspirin;
+naa koy lagnat,acetaminophen,ibuprofen;aspirin;
+nagkalagnat ko,acetaminophen,ibuprofen;aspirin;
+gilagnat,acetaminophen,ibuprofen;aspirin;
+gilagnat ko,acetaminophen,ibuprofen;aspirin;
+ginalagnat ko,acetaminophen,ibuprofen;aspirin;
+taas kaayo akong temperatura,acetaminophen,ibuprofen;aspirin;
+temperatura nako taas kaayo,acetaminophen,ibuprofen;aspirin;
+init akong paminaw,acetaminophen,ibuprofen;aspirin;
+init akong temperatura,acetaminophen,ibuprofen;aspirin;
+init akong pamati,acetaminophen,ibuprofen;aspirin;
+init akong gibati,acetaminophen,ibuprofen;aspirin;
+akong pamati init,acetaminophen,ibuprofen;aspirin;
+akong gibati init,acetaminophen,ibuprofen;aspirin;
+akong temperatura init,acetaminophen,ibuprofen;aspirin;
+ang akong paminaw kay init,acetaminophen,ibuprofen;aspirin;
+init kaayo akong ulo,acetaminophen,ibuprofen;aspirin;
+gibugnaw ko,acetaminophen,ibuprofen;aspirin;
+bugat ang lawas,acetaminophen,ibuprofen;aspirin;
+bugat ang paminaw,acetaminophen,ibuprofen;aspirin; 
+paminaw bugat,acetaminophen,ibuprofen;aspirin;
+bugat paminaw,acetaminophen,ibuprofen;aspirin;
+sakit akong lawas,acetaminophen,ibuprofen;aspirin;
+bugat akong paminaw,acetaminophen,ibuprofen;aspirin;
+gilagnat ko,acetaminophen,ibuprofen;aspirin;
+hilanat,acetaminophen,ibuprofen;aspirin
+sakit lawas,acetaminophen,ibuprofen;aspirin;
+masakit katawan,acetaminophen,ibuprofen;aspirin;
+kalintura,acetaminophen,ibuprofen;aspirin
+migraine,acetaminophen,ibuprofen;triptans 
+sakit dughan,acetaminophen,ibuprofen;naproxen;
+pagkakaroon ng lagnat,acetaminophen,ibuprofen 
+trangkaso,acetaminophen,paracetamol
+chest pain,acetaminophen,ibuprofen;acetaminophen;aspirin;
+sakit sa likod,acetaminophen,ibuprofen;
+sakit sa mga lutahan,acetaminophen,ibuprofen;
+pagsakit ng mga kasukasuan,acetaminophen,ibuprofen;
+pagsakit ng likod,acetaminophen,Ibuprofen;
+sakit kaayo akong lawas,acetaminophen,Ibuprofen;
+lawas nako sakit kaayo,acetaminophen,Ibuprofen;
+kasakit sakong lawas,acetaminophen,Ibuprofen;
+nagasakit akong lawas,acetaminophen,Ibuprofen;
+sakit sakong lawas,acetaminophen,Ibuprofen;
+nagasakit ang aking lawas,acetaminophen,Ibuprofen;
+masakit masyado ang aking katawan,acetaminophen,Ibuprofen;
+masakit ang aking katawan,acetaminophen,Ibuprofen;
+napakasakit ng katawan ko,acetaminophen,Ibuprofen;
+nagasakit ang katawan ko,acetaminophen,Ibuprofen;
+lain akong lawas,acetaminophen,Ibuprofen;
+lain akong paminaw,acetaminophen,Ibuprofen;
+
+tooth pain,nsaid
+toothe paine,nsaid
+toothache,nsaid
+sakit ngipon,nsaid
+sakit akong ngipon,nsaid
+sakit kaayo akong ngipon,nsaid
+ngipon nako sakit kaayo,nsaid
+ngipon nako sakit,nsaid
+ngulngul akong ngipon,nsaid
+sakit ang ngipon,nsaid
+ngipon sakit,nsaid
+nagsakit ang ngipon,nsaid
+sakit kaayo ngipon,nsaid
+masakit ang ngipin,nsaid
+ngipin masakit,nsaid
+ngipin sakit,nsaid
+sakit ngipin,nsaid
+masakit ang ngipin ko,nsaid
+nagsakit ang ngipin ko,nsaid
+nagasakit ang ngipin ko,nsaid
+sakit sa ngipon nako,nsaid
+masakit talaga ang ngipin ko,nsaid
+nagasakit ang ngipin ko,nsaid
+sobrang sakit ng ngipin ko,nsaid
+lain kaayo akong ngipon,nsaids
+sakit na kaayo akong ngipon,nsaid
+hapdos kaayo akong ngipon,nsaid
+ang hapdi ng ngipin ko,nsaid
+
+menstruation,nsaid
+gidugo,nsaid
+gidugo ko,nsaid
+gi dugo,nsaid
+ginadugo ko,nsaid
+mens,nsaid
+gi mens ko,nsaid
+naa koy menstruation,nsaid
+sakit puson,nsaid
+puson nako sakit,nsaid
+puson sakit,nsaid
+sakit kaayo akong puson,nsaid
+sakit dyud kaayo akong puson,nsaid
+masakit ang puson ko,nsaid
+nagsakit ang puson ko,nsaid
+nagasakit ang puson ko,nsaid
+puson masakit,nsaid
+dysmenorrhea,nsaid 
+red tide,nsaid
+red days,nsaid
+sumasakit ang puson ko,nsaid
+sobrang sakit ng puson ko,nsaid
+ang sakit sakit ng puson ko,nsaid
+
+
+ubo,lagundi,guaifenesin;honey
+hack,lagundi,guaifenesin;honey
+ubo ubo,lagundi,guaifenesin;honey
+ubo-ubo,lagundi,guaifenesin;honey
+cough,lagundi,guaifenesin; dextromethorphan
+coughing,lagundi,guaifenesin;dextromethorphan
+inuubo,lagundi,guaifenesin;dextromethorphan
+nauubo,lagundi,guaifenesin;dextromethorphan
+pag-ubo ng may plema,lagundi,Guaifenesin;Honey; 
+ubo nga adunay plema,lagundi,Guaifenesin;Honey; 
+may ubo,lagundi,Guaifenesin;Honey; 
+may ubo ako,lagundi,Guaifenesin;Honey; 
+gina ubo ako,lagundi,Guaifenesin;Honey; 
+gina ubo ko,lagundi,Guaifenesin;Honey; 
+naa koy ubo,lagundi,Guaifenesin;Honey; 
+nagkaubo ko,lagundi,Guaifenesin;Honey; 
+nagkaubo,lagundi,Guaifenesin;Honey; 
+naay ubo,lagundi,Guaifenesin;Honey; 
+gi ubo,lagundi,Guaifenesin;Honey; 
+grabe akong ubo,lagundi,Guaifenesin;Honey;
+akong ubo grabe,lagundi,Guaifenesin;Honey;
+lain kaayo akong ubo,lagundi,Guaifenesin;Honey;
+kusog kaayo akong ubo,lagundi,Guaifenesin;Honey;
+ubo nako kusog kaayo,lagundi,Guaifenesin;Honey;
+sigeg kaubo,lagundi,Guaifenesin;Honey;
+sigeg ubo,lagundi,Guaifenesin;Honey;
+sige rakog ubo,lagundi,Guaifenesin;Honey;
+nagsige lang kog ubo,lagundi,Guaifenesin;Honey;
+wa nay undang akong ubo,lagundi,Guaifenesin;Honey;
+way kaundangon akong ubo,lagundi,Guaifenesin;Honey;
+naa man gud koy ubo,lagundi,Guaifenesin;Honey;
+
+nagasakit akong tutunlan,strepsils,lozenge;throat spray
+sakit akong tilaok,strepsils,lozenge;throat spray
+gasakit akong tilaok,strepsils,lozenge;throat spray
+sakit kaayo akong tilaok,strepsils,lozenge;throat spray
+grabe ka sakit sakong tilaok,strepsils,lozenge;throat spray
+sigeg ka sakit akong tilaok,strepsils,lozenge;throat spray
+sakit ilunok,strepsils,lozenge;throat spray
+sakit kaayo mulunok,strepsils,lozenge;throat spray
+katol tutunlan,strepsils,lozenge;throat spray
+my throat hurts,strepsils,lozenge;throat spray
+my throat is itchy,strepsils,lozenge;throat spray
+when I swallow it hurts,strepsils,lozenge;throat spray
+sore throat,strepsils,warm salt water gargle; lozenges; honey
+swallowing hurts,strepsils,lozenge;throat spray
+masakit lumamon ng pagkain,strepsils,lozenge;throat spray
+sakit kaayo kong tutunlan,strepsils,lozenge;throat spray
+sakit akong tutunlan,strepsils,lozenge;throat spray
+masakit ang sikmura ko,strepsils,lozenge;throat spray
+napakasakit ng sikmura ko,strepsils,lozenge;throat spray
+sumasakit ang sikmura ko,strepsils,lozenge;throat spray
+ang sakit sakit ng sikmura ko,strepsils,lozenge;throat spray
+masakit lumunok ng pagkain,strepsils,lozenge;throat spray
+sakit tutunlan,strepsils,warm salt water gargle; lozenges; honey
+makati sikmura,strepsils,warm salt water gargle; lozenges; honey
+sikmura makati,strepsils,warm salt water gargle; lozenges; honey
+masakit sikmura,strepsils,warm salt water gargle; lozenges; honey
+sikmura masakit,strepsils,warm salt water gargle; lozenges; honey
+tutunlan nako katol,strepsils,warm salt water gargle; lozenges; honey
+tutunlan nako sakit kaayo,strepsils,warm salt water gargle; lozenges; honey
+
+sipon,nasal_decongestant,saline nasal spray; antihistamines
+runny nose,nasal_decongestant,saline nasal spray; antihistamines
+my nose keeps sneezing,nasal_decongestant,saline nasal spray; antihistamines
+i keep sneezing,nasal_decongestant,saline nasal spray; antihistamines
+sneezing,nasal_decongestant,saline nasal spray; antihistamines
+sneezes,nasal_decongestant,saline nasal spray; antihistamines
+sip-on,nasal_decongestant,saline nasal spray; antihistamines 
+nasal congestion,nasal_decongestant,saline nasal spray; antihistamines
+sinus,nasal_decongestant,sinutab;saline nasal spray; antihistamines
+sinusitis,nasal_decongestant,sinutab;saline nasal spray; antihistamines
+pagkakaroon ng sipon,nasal_decongestant,Saline nasal spray; antihistamines
+naa koy sipon,nasal_decongestant,Saline nasal spray; antihistamines
+siponon,nasal_decongestant,Saline nasal spray; antihistamines
+may sipon ako,nasal_decongestant,Saline nasal spray; antihistamines
+sinisipon ako,nasal_decongestant,Saline nasal spray; antihistamines
+clogged nose,nasal_decongestant,Saline nasal spray; antihistamines
+clog nose,nasal_decongestant,Saline nasal spray; antihistamines
+gi sipon ko,nasal_decongestant,Saline nasal spray; antihistamines
+gina sipon ko,nasal_decongestant,Saline nasal spray; antihistamines
+atching,nasal_decongestant,Saline nasal spray; antihistamines
+subaw,nasal_decongestant,Saline nasal spray; antihistamines
+nagtulo ang sipon,nasal_decongestant,Saline nasal spray; antihistamines
+sigeg tulo ang sipon,nasal_decongestant,Saline nasal spray; antihistamines
+
+stomach upset,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+my poop is wet,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+i keep pooping,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+i have diarrhea,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+digestive issues,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+nagkalibanga ko,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+gina kalibanga ko,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+akong tae basa,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+basa akong tae,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+basa ang aking tae,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+napakabasa ng tae ko,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+tina tae tae ako,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+lagi lang akong tumatae,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+sige rakog kalibang,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+sakit kaayo akong tiyan,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+sigeg kasakit akong tiyan,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+sige rag kasakit akong tiyan unya sigeg rakog libang,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+sakit kaayo akong tiyan unya sigeg rakog libang,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+ang sakit ng tiyan ko tapos tumatae ako ng basa,bismuth_subsalicylate,simethicone; ranitidine; omeprazole; loperamide
+upset stomach,bismuth_subsalicylate,loperamide;antacids
+kalibanga,bismuth_subsalicylate,loperamide;antacids
+diarrhea,bismuth_subsalicylate,loperamide;antacids
+pagtatae,bismuth_subsalicylate,Loperamide;antacids
+gikalibanga,bismuth_subsalicylate,loperamide;antacids
+nakalibanga,bismuth_subsalicylate,loperamide;antacids
+tae tae,bismuth_subsalicylate,loperamide;antacids
+heartburn,bismuth_subsalicylate,loperamide;antacids
+stomach ache,bismuth_subsalicylate,antacids;simethicone; ranitidine; omeprazole 
+sakit tiyan,bismuth_subsalicylate,antacids;simethicone; ranitidine; omeprazole
+tiyan sakit,bismuth_subsalicylate,antacids;simethicone; ranitidine; omeprazole
+sakit kaayo tiyan,bismuth_subsalicylate,antacids;simethicone; ranitidine; omeprazole
+sakit sa tiyan,bismuth_subsalicylate,antacids;simethicone; ranitidine; omeprazole
+pagsakit ng tiyan,bismuth_subsalicylate,antacids;simethicone; ranitidine; omeprazole
+pagkakaroon ng pangangasim ng sikmura,bismuth_subsalicylate,antacids;omeprazole
+sakit akong tiyan,bismuth_subsalicylate,antacids;omeprazole
+sakit kaayo akong tiyan,bismuth_subsalicylate,antacids;omeprazole
+sobrang sakit ng tiyan ko,bismuth_subsalicylate,antacids;omeprazole
+masakit ang tiyan ko,bismuth_subsalicylate,antacids;omeprazole
+napakasakit ng tiyan ko,bismuth_subsalicylate,antacids;omeprazole
+ang sakit ng tiyan ko,bismuth_subsalicylate,antacids;omeprazole
+ang sakit sakit ng tiyan ko,bismuth_subsalicylate,antacids;omeprazole
+
+skin irritation,diphenhydramine,hydrocortisone cream
+skin hurts,diphenhydramine,hydrocortisone cream
+pangatol,diphenhydramine,hydrocortisone cream
+nangatol,diphenhydramine,hydrocortisone cream
+katol,diphenhydramine,hydrocortisone cream
+pagkakaroon ng rashes,diphenhydramine,hydrocortisone cream
+rashes,diphenhydramine,hydrocortisone cream
+pangangati,diphenhydramine,hydrocortisone cream
+makati,diphenhydramine,hydrocortisone cream
+katol balat,diphenhydramine,hydrocortisone cream
+katol akong balat,diphenhydramine,hydrocortisone cream
+sakit akong panit,diphenhydramine,hydrocortisone cream
+panit nako sakit kaayo,diphenhydramine,hydrocortisone cream
+panit sakit,diphenhydramine,hydrocortisone cream
+hapdos panit,diphenhydramine,hydrocortisone cream
+hapdos kaayo akong panit,diphenhydramine,hydrocortisone cream
+sakit kaayo akong panit,diphenhydramine,hydrocortisone cream
+akong panit sakin,diphenhydramine,hydrocortisone cream
+akong panit hapdos,diphenhydramine,hydrocortisone cream
+mahapdi ang balat ko,diphenhydramine,hydrocortisone cream
+hapdi ang balat,diphenhydramine,hydrocortisone cream
+balat mahapdi,diphenhydramine,hydrocortisone cream
+mahapdi ang balat ko,diphenhydramine,hydrocortisone cream
+masakit ang balat ko,diphenhydramine,hydrocortisone cream
+sakit ang balat ko,diphenhydramine,hydrocortisone cream
+allergy,diphenhydramine,fexofenadine;hydrocortisone cream
+allergies,diphenhydramine,fexofenadine;hydrocortisone cream
+sensitive,diphenhydramine,fexofenadine;hydrocortisone cream
+hypersensitivity,diphenhydramine,fexofenadine;hydrocortisone cream
+i have allergies,diphenhydramine,fexofenadine;hydrocortisone cream
+i got allergies,diphenhydramine,fexofenadine;hydrocortisone cream
+i feel allergic,diphenhydramine,fexofenadine;hydrocortisone cream
+i am experiencing allergies,diphenhydramine,fexofenadine;hydrocortisone cream
+allergic reaction,diphenhydramine,fexofenadine;hydrocortisone cream
+mild allergy,diphenhydramine,fexofenadine;hydrocortisone cream
+my skin is itchy,diphenhydramine,fexofenadine;hydrocortisone cream
+i keep scratching my skin,diphenhydramine,fexofenadine;hydrocortisone cream
+my skin hurts,diphenhydramine,fexofenadine;hydrocortisone cream
+my skin is getting red,diphenhydramine,fexofenadine;hydrocortisone cream
+my skin is changing color,diphenhydramine,fexofenadine;hydrocortisone cream
+my skin has circles,diphenhydramine,fexofenadine;hydrocortisone cream
+my skin is changing texture,diphenhydramine,fexofenadine;hydrocortisone cream
+my skin got rough,diphenhydramine,fexofenadine;hydrocortisone cream
+itchy skin,diphenhydramine,fexofenadine;hydrocortisone cream
+prickly skin,diphenhydramine,fexofenadine;hydrocortisone cream
+prickling skin,diphenhydramine,fexofenadine;hydrocortisone cream
+my skin is feeling prickly,diphenhydramine,fexofenadine;hydrocortisone cream
+my skin is very prickly,diphenhydramine,fexofenadine;hydrocortisone cream
+my skin started to feel prickly,diphenhydramine,fexofenadine;hydrocortisone cream
+suddenly my skin got itchy,diphenhydramine,fexofenadine;hydrocortisone cream
+
+sleep disturbance,diphenhydramine,melatonin
+insomnia,diphenhydramine,melatonin
+trouble sleeping,diphenhydramine,melatonin
+i cannot sleep,diphenhydramine,melatonin
+difficulty sleeping,diphenhydramine,melatonin
+sleeping issues,diphenhydramine,melatonin
+i can't sleep,diphenhydramine,melatonin
+unable to sleep,diphenhydramine,melatonin
+i find sleeping difficult,diphenhydramine,melatonin
+i cannot sleep at night,diphenhydramine,melatonin
+can't sleep at night,diphenhydramine,melatonin
+dili katulog,diphenhydramine,melatonin
+dli ko katulog,diphenhydramine,melatonin
+way tarung tulog,diphenhydramine,melatonin
+lisod itulog,diphenhydramine,melatonin
+nagkalisod matulog,diphenhydramine,melatonin
+magkalisod matulog,diphenhydramine,melatonin
+hindi makatulog,diphenhydramine,melatonin
+di katug,diphenhydramine,melatonin
+cannot sleep,diphenhydramine,melatonin
+unable to sleep,diphenhydramine,melatonin
+problem sleeping,diphenhydramine,melatonin
+wakefulness,diphenhydramine,melatonin
+sleeplessness,diphenhydramine,melatonin
+restlessness,diphenhydramine,melatonin
+inability to sleep,diphenhydramine,melatonin
+watchfulness,diphenhydramine,melatonin
+lisod itulog,diphenhydramine,melatonin
+lisod tulog,diphenhydramine,melatonin
+alertness,diphenhydramine,melatonin
+sleep deprived,diphenhydramine,melatonin
+mahirap matulog,diphenhydramine,melatonin
+nahihirapan matulog,diphenhydramine,melatonin
+nahirapan matulog,diphenhydramine,melatonin
+mahirap matug,diphenhydramine,melatonin
+lisod itug,diphenhydramine,melatonin
+nahihirapan itulog,diphenhydramine,melatonin
+mahihirapan itulog,diphenhydramine,melatonin
+
+tired,multivitamins,
+i'm tired,multivitamins
+very tired,multivitamins
+really tired,multivitamins
+worn out,multivitamins,
+worned out,multivitamins,
+overtired,multivitamins,
+spent,multivitamins,
+weary,multivitamins,
+fatigue,multivitamins,
+fatigued,multivitamins,
+exhausted,multivitamins,
+exhaustion,multivitamins,
+tiredness,multivitamins,
+weariness,multivitamins,
+so tired,multivitamins,
+pagkapagod,multivitamins,
+napagod ako,multivitamins,
+gitamlay ko,multivitamins,
+tamlay,multivitamins
+matamlay,multivitamins
+matamlay katawan ko,multivitamins
+pagod,multivitamins,
+hina,multivitamins,
+nagkahinay,multivitamins,
+mahina,multivitamins,
+mahina ang katawan,multivitamins,
+luya,multivitamins,
+giluya,multivitamins,
+naluya,multivitamins,
+naluya ko,multivitamins,
+giluya ko,multivitamins,
+panghihina,multivitamins,
+kapoy,multivitamins,
+pagkakapoy,multivitamins,
+gikapoy ko,multivitamins,
+gikapoy,multivitamins,
+napagod,multivitamins,
+nakakapagod,multivitamins,
+napagod ako,multivitamins,
+kahuyang,multivitamins,
+
+nausea,dimenhydrinate,
+i wanna puke,dimenhydrinate,
+i keep puking,dimenhydrinate,
+i keep vomitting,dimenhydrinate,
+i feel like vomitting,dimenhydrinate,
+i feel nauseous,dimenhydrinate,
+nauseous,dimenhydrinate,
+pagsusuka,dimenhydrinate,
+suka,dimenhydrinate,
+nagsusuka,dimenhydrinate,
+nasusuka,dimenhydrinate,
+nasusuka ako,dimenhydrinate,
+masusuka,dimenhydrinate,
+masusuka ako,dimenhydrinate,
+sigeg suka,dimenhydrinate,
+kasukaon,dimenhydrinate,
+kasukaon ko,dimenhydrinate,
+magsuka,dimenhydrinate,
+nagsuka,dimenhydrinate,
+puking,dimenhydrinate,
+puke,dimenhydrinate,
+vomit,dimenhydrinate,
+vomitting,dimenhydrinate,
+gag,dimenhydrinate,
+barf,dimenhydrinate,
+barfing,dimenhydrinate,
+throw up,dimenhydrinate,
+pagkahilo,dimenhydrinate,
+lipong,dimenhydrinate,
+kalipongon,dimenhydrinate,
+kalipongon ko,dimenhydrinate,
+nalipong ko,dimenhydrinate,
+hilo,dimenhydrinate,
+nalipong,dimenhydrinate,
+nalilipong,dimenhydrinate,
+nahihilo,dimenhydrinate,
+nahihilo ako,dimenhydrinate,
+nahilo ako,dimenhydrinate,
+nahilo,dimenhydrinate,
+dizzy,dimenhydrinate,
+dizziness,dimenhydrinate,
+malipong,dimenhydrinate,
+
+asthma,inhaled_corticosteroids,guaifenesin
+i have asthma,inhaled_corticosteroids,guaifenesin
+i got asthma,inhaled_corticosteroids,guaifenesin
+heavy breathing,inhaled_corticosteroids,guaifenesin
+difficulty breathing,inhaled_corticosteroids,guaifenesin
+breathing difficulty,inhaled_corticosteroids,guaifenesin
+hika,inhaled_corticosteroids,guaifenesin
+hinihika,inhaled_corticosteroids,guaifenesin
+ginahika,inhaled_corticosteroids,guaifenesin
+naghika,inhaled_corticosteroids,guaifenesin
+nagahika,inhaled_corticosteroids,guaifenesin
+asma,inhaled_corticosteroids,guaifenesin
+ginahubak,inhaled_corticosteroids,guaifenesin
+lisod hinga,inhaled_corticosteroids,guaifenesin
+hinga lisod,inhaled_corticosteroids,guaifenesin
+kahubakon,inhaled_corticosteroids,guaifenesin
+hihikain,inhaled_corticosteroids,guaifenesin
+hubak,inhaled_corticosteroids,guaifenesin
+gi hubak ko,inhaled_corticosteroids,guaifenesin
+kahubakon ko,inhaled_corticosteroids,guaifenesin
+naa koy hubak,inhaled_corticosteroids,guaifenesin
+gi asthma ko,inhaled_corticosteroids,guaifenesin
+naa koy asthma,inhaled_corticosteroids,guaifenesin
+gina hubak ko,inhaled_corticosteroids,guaifenesin
+nanglisod kog ginhawa,inhaled_corticosteroids,guaifenesin
+nanglisod kog hinga,inhaled_corticosteroids,guaifenesin
+naglisod kog hinga,inhaled_corticosteroids,guaifenesin
+nanglisod ug hinga,inhaled_corticosteroids,guaifenesin
+lisod kaayo ihinga,inhaled_corticosteroids,guaifenesin
+dili ka hinga,inhaled_corticosteroids,guaifenesin
+dili ka hinga ug tarung,inhaled_corticosteroids,guaifenesin
+naglisod ug ginhawa,inhaled_corticosteroids,guaifenesin
+lisod ginhawa,inhaled_corticosteroids,guaifenesin
+lisod kaayo ginhawa,inhaled_corticosteroids,guaifenesin
+asthmahon,inhaled_corticosteroids,guaifenesin

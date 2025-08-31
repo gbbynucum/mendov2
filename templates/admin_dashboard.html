@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-10">
+
+  <!-- Flash message container -->
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      {% for category, message in messages %}
+        {% if category not in ['error', 'payment'] %}
+          <div class="alert alert-{{ category }}">
+            {{ message }}
+          </div>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endwith %}
+
+  <div class="flex justify-between items-center mb-8">
+    <h1 class="text-3xl font-bold">Admin Dashboard</h1>
+    <form action="{{ url_for('logout') }}" method="POST">
+      <button type="submit" class="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-700">Logout</button>
+    </form>
+  </div>
+
+  <h2 class="text-xl font-semibold mb-4">Add New Medicine</h2>
+  <form action="{{ url_for('add_medicine') }}" method="POST" enctype="multipart/form-data">
+    <div class="mb-4">
+      <input type="text" name="name" placeholder="Medicine Name" class="p-2 border rounded w-full" required>
+    </div>
+    <div class="mb-4">
+      <input type="number" name="price" placeholder="Price" class="p-2 border rounded w-full" required>
+    </div>
+    <div class="mb-4">
+      <input type="number" name="stock" placeholder="Stock" class="p-2 border rounded w-full" required>
+    </div>
+    <div class="mb-4">
+      <input type="file" name="image" accept="image/*" class="p-2 border rounded w-full">
+    </div>
+    <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add Medicine</button>
+  </form>
+
+  <table class="w-full bg-white border rounded-lg shadow-md mt-8">
+    <thead>
+      <tr>
+        <th class="border p-2">ID</th>
+        <th class="border p-2">Name</th>
+        <th class="border p-2">Price</th>
+        <th class="border p-2">Stock</th>
+        <th class="border p-2">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for medicine in medicines %}
+      <tr>
+        <td class="border p-2">{{ medicine[0] }}</td>
+        <td class="border p-2">{{ medicine[1] }}</td>
+        
+        <!-- Price Update Form -->
+        <td class="border p-2">
+          <form action="{{ url_for('update_price') }}" method="POST" class="flex items-center">
+            <input type="hidden" name="medicine_id" value="{{ medicine[0] }}">
+            <input type="number" name="price" value="{{ medicine[2] }}" class="w-16 p-1 border rounded mr-2">
+            <button type="submit" class="px-3 py-1 bg-yellow-500 text-white rounded hover:bg-yellow-700">Update Price</button>
+          </form>
+        </td>
+
+        <!-- Stock Update Form -->
+        <td class="border p-2">
+          <form action="{{ url_for('update_stock') }}" method="POST" class="flex items-center">
+            <input type="hidden" name="medicine_id" value="{{ medicine[0] }}">
+            <input type="number" name="stock" value="{{ medicine[3] }}" class="w-16 p-1 border rounded mr-2">
+            <button type="submit" class="px-3 py-1 bg-green-500 text-white rounded hover:bg-green-700">Update</button>
+          </form>
+        </td>
+
+        <!-- Delete Form -->
+        <td class="border p-2">
+          <form action="{{ url_for('delete_medicine') }}" method="POST">
+            <input type="hidden" name="medicine_id" value="{{ medicine[0] }}">
+            <button type="submit" class="px-3 py-1 bg-red-500 text-white rounded hover:bg-red-700">Delete</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>

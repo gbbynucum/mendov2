@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Available Medicines</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Function to toggle the cart dropdown
+    function toggleCartDropdown() {
+      const cartDropdown = document.getElementById('cart-dropdown');
+      cartDropdown.classList.toggle('hidden');
+    }
+
+    // Function to update the cart display
+    function updateCart() {
+      const cart = JSON.parse(localStorage.getItem('cart') || '[]');
+      const cartItemsContainer = document.getElementById('cart-items');
+
+      cartItemsContainer.innerHTML = '';
+      if (cart.length === 0) {
+        cartItemsContainer.innerHTML = '<p class="text-gray-600">Your cart is empty.</p>';
+      } else {
+        cart.forEach(item => {
+          const cartItem = document.createElement('div');
+          cartItem.classList.add('flex', 'justify-between', 'items-center', 'py-2', 'border-b');
+          cartItem.innerHTML = `
+            <span class="text-sm font-medium">${item.name}</span>
+            <div class="flex items-center">
+              <button class="px-2 py-1 bg-gray-200 rounded" onclick="changeQuantity(${item.id}, -1)">-</button>
+              <span class="mx-2">${item.quantity}</span>
+              <button class="px-2 py-1 bg-gray-200 rounded" onclick="changeQuantity(${item.id}, 1)">+</button>
+            </div>
+            <span class="text-sm">₱${(item.price * item.quantity).toFixed(2)}</span>
+          `;
+          cartItemsContainer.appendChild(cartItem);
+        });
+      }
+    }
+
+    // Add an item to the cart
+    function addToCart(id, name, price) {
+      const cart = JSON.parse(localStorage.getItem('cart') || '[]');
+      const itemIndex = cart.findIndex(item => item.id === id);
+
+      if (itemIndex !== -1) {
+        cart[itemIndex].quantity += 1;
+      } else {
+        cart.push({ id, name, price, quantity: 1 });
+      }
+      localStorage.setItem('cart', JSON.stringify(cart));
+      updateCart();
+    }
+
+    // Change item quantity in the cart
+    function changeQuantity(id, delta) {
+      const cart = JSON.parse(localStorage.getItem('cart') || '[]');
+      const itemIndex = cart.findIndex(item => item.id === id);
+
+      if (itemIndex !== -1) {
+        cart[itemIndex].quantity += delta;
+        if (cart[itemIndex].quantity <= 0) {
+          cart.splice(itemIndex, 1);
+        }
+        localStorage.setItem('cart', JSON.stringify(cart));
+        updateCart();
+      }
+    }
+
+    // Initialize the cart on page load
+    window.onload = function() {
+      updateCart();
+    };
+
+    // Function to show medicine details in a modal
+    function showMedicineDetails(name, therapeuticEffects, sideEffects) {
+      document.getElementById('medicine-name').innerText = name;
+      document.getElementById('medicine-therapeutic-effects').innerText = therapeuticEffects;
+      document.getElementById('medicine-side-effects').innerText = sideEffects;
+      document.getElementById('medicine-details-modal').classList.remove('hidden');
+    }
+
+    // Function to close the medicine details modal
+    function closeMedicineDetails() {
+      document.getElementById('medicine-details-modal').classList.add('hidden');
+    }
+
+    function updateCartDataForCheckout() {
+    const cart = JSON.parse(localStorage.getItem('cart') || '[]');
+    const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+    document.getElementById('cart-data').value = JSON.stringify(cart);
+    document.getElementById('total-price').value = total.toFixed(2);
+  }
+
+  document.querySelector('form[action="/payment"]').addEventListener('submit', updateCartDataForCheckout);
+  </script>
+</head>
+<body class="bg-gradient-to-r from-green-300 via-blue-400 to-purple-500">
+
+  <!-- Header -->
+  <div class="bg-white p-8 text-center rounded-lg shadow-2xl mx-4 sm:mx-8 lg:mx-16 mb-8">
+    <h1 class="text-4xl font-extrabold text-gray-800 mb-4">Available Over-the-Counter Medicines</h1>
+    <p class="text-lg text-gray-600">Browse through a list of available OTC medicines for common ailments.</p>
+  </div>
+
+  <!-- Cart Section -->
+  <div class="relative mx-8 mb-8">
+    <div class="flex flex-col items-end">
+      <button 
+        id="cart-button" 
+        class="px-4 py-2 bg-gray-800 text-white rounded-lg shadow-lg hover:bg-gray-700 mb-2"
+        onclick="toggleCartDropdown()"
+      >
+        Cart
+      </button>
+      <div 
+        id="cart-dropdown" 
+        class="w-64 bg-white rounded-lg shadow-lg p-4 hidden z-10 overflow-y-auto absolute top-12 right-0"
+        style="max-height: 300px;"
+      >
+        <h2 class="text-lg font-bold mb-2">Your Cart</h2>
+        <div id="cart-items" class="space-y-2"></div>
+        <form action="/purchase" method="POST">
+    <button 
+        type="submit"
+        class="w-full px-4 py-2 mt-4 bg-blue-600 text-white rounded-lg hover:bg-blue-500"
+    >
+        Proceed to Checkout
+    </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Grid -->
+  <div class="max-w-screen-xl mx-auto p-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      {% for medicine in medicines %}
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <!-- Image as clickable element to show details -->
+          <img src="{{ medicine[3] }}" alt="{{ medicine[0] }}" class="w-full h-48 object-cover cursor-pointer" 
+            onclick="showMedicineDetails('{{ medicine[0] }}', '{{ medicine[4] }}', '{{ medicine[5] }}')">
+          <div class="p-4">
+            <h2 class="text-xl font-semibold text-gray-800">{{ medicine[0] }}</h2>
+            <p class="text-gray-600 mt-2">Stock: {{ medicine[2] }}</p>
+            <div class="mt-4 flex justify-between items-center">
+              <span class="text-lg font-bold text-blue-600">₱{{ "%.2f" | format(medicine[1]) }}</span>
+              <button 
+                class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold rounded-3xl shadow-lg hover:from-blue-400 hover:to-blue-600 transform hover:scale-102 transition-all duration-300 ease-in-out"
+                onclick="addToCart({{ loop.index }}, '{{ medicine[0] }}', {{ medicine[1] }})"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Modal for medicine details -->
+  <div id="medicine-details-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+    <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
+      <h2 id="medicine-name" class="text-2xl font-semibold mb-4"></h2>
+      <h3 class="text-xl font-semibold mb-2">Therapeutic Effects</h3>
+      <p id="medicine-therapeutic-effects" class="mb-4 text-gray-600"></p>
+      <h3 class="text-xl font-semibold mb-2">Side Effects</h3>
+      <p id="medicine-side-effects" class="mb-4 text-gray-600"></p>
+      <button onclick="closeMedicineDetails()" class="px-4 py-2 bg-red-600 text-white rounded-lg">Close</button>
+    </div>
+  </div>
+  <!-- Toast Notification Container -->
+<div id="toast-container" class="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 hidden">
+</div>
+
+  <!-- Back to Home Button -->
+  <div class="text-center py-6">
+    <a href="{{ url_for('welcome') }}" class="inline-block px-8 py-4 bg-gradient-to-r from-gray-500 to-gray-700 text-white font-semibold rounded-3xl shadow-lg hover:from-gray-400 hover:to-gray-600 transform hover:scale-102 transition-all duration-300 ease-in-out">
+      Back to Home
+    </a>
+  </div>
+
+</body>
+</html>
