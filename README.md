@@ -69,8 +69,9 @@ Flask will start on:
 http://127.0.0.1:5000/
 ```
 
-
-
+## Admin Page
+Username: admin
+Password: adminpass
 
 
 
