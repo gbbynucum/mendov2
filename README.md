@@ -1,6 +1,7 @@
-# 💊 Medicine Recommendation & E-Pharmacy System  
+#  MENDO V2.0: AN AI-ENABLED MEDICINE RECOMMENDER FOR AN OVER THE COUNTER (OTC) DRUG DISPENSER
 
-## 📌 Overview  
+
+##  Overview  
 This project is a **Flask-based web application** that recommends medicines based on user-entered symptoms, while also considering **maintenance medicines** and **allergies**.  
 
 It combines:  
@@ -15,7 +16,7 @@ Users can:
 
 ---
 
-## ⚙️ Features  
+##  Features  
 ✅ Symptom-based medicine recommendation  
 ✅ Considers maintenance medicines and allergies (avoid unsafe drugs)  
 ✅ Synonym expansion for local terms (English, Tagalog, Cebuano)  
@@ -27,7 +28,7 @@ Users can:
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1 Clone the repository  
 ```bash
